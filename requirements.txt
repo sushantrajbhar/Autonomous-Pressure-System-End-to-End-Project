@@ -1,4 +1,7 @@
 pymongo==4.2.0
-
+pandas
+numpy
+scikit-learn
+python-dotenv
 
 -e .  #Editable mode
