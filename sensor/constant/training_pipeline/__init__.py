@@ -4,10 +4,10 @@ import os
 These are the constants that would be there for training the dataset
 """
 
-TARGET_COLUMN="class"
-PIPLEINE_NAME="sensor"
-ARTIFACT_DIR="artifact"
-FILE_NAME="sensor.csv"   
+TARGET_COLUMN = "class"
+PIPELINE_NAME = "sensor"
+ARTIFACT_DIR = "artifact"
+FILE_NAME = "sensor.csv"
 
 """In the data Ingestion artifact, there would be folder created
  called feature store and in the folder, sensor.csv would be created """
@@ -24,7 +24,7 @@ SCHEMA_DROP_COLS="drop_columns"
 
 #Data Ingestion related constants
 
-DATA_INGESTION_COLLECTION_NAME:str="sensor"
+DATA_INGESTION_COLLECTION_NAME:str="mongoclass"
 DATA_INGESTION_DIR_NAME:str="data_ingestion"
 DATA_INGESTION_FEATURE_STORE_DIR:str="feature_store"
 DATA_INGESTION_INGESTED_DIR:str="ingested"

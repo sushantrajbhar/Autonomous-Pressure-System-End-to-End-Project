@@ -1,0 +1,3 @@
+
+DATABASE_NAME = "APS"
+COLLECTION_NAME = "mongoclass"

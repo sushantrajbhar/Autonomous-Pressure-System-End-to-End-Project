@@ -4,9 +4,6 @@ import logging
 import json
 from sensor.config import mongo_client
 
-"""
-The below function is used to push the dataset that is read through config.py to the mongodb
-"""
 def dump_csv_file_to_mongodb_collection(file_path:str,database_name:str,collection_name:str)->None:
     try:
 
@@ -19,4 +16,3 @@ def dump_csv_file_to_mongodb_collection(file_path:str,database_name:str,collecti
         
     except Exception as e :
         print(e)
-
