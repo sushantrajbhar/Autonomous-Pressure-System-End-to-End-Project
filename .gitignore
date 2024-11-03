@@ -131,6 +131,8 @@ env.bak/
 venv.bak/
 asp_venv/
 
+# Folders
+artifact/
 # Spyder project settings
 .spyderproject
 .spyproject
