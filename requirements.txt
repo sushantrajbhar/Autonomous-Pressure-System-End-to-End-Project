@@ -3,5 +3,9 @@ pandas
 numpy
 scikit-learn
 python-dotenv
+PyYAML
+dill
+certifi
+scipy
 
 -e .  #Editable mode

@@ -5,7 +5,7 @@ from sensor.logger import logging
 from sensor.configuration.mongo_db_connection  import MongoDBClient
 
 from sensor.logger import logging
-from sensor.utils import dump_csv_file_to_mongodb_collection
+from sensor.utils2 import dump_csv_file_to_mongodb_collection
 from sensor.pipeline.training_pipeline import TrainPipeline
 
 

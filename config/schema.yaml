@@ -1,4 +1,4 @@
- columns:
+columns:
   - class: category
   - aa_000: int
   - ac_000: int
