@@ -8,4 +8,5 @@ dill
 certifi
 scipy
 imblearn
+xgboost==1.6.2
 -e .  #Editable mode
