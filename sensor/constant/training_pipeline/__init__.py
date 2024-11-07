@@ -68,3 +68,11 @@ MODEL_EVALUATION_REPORT_NAME= "report.yaml"
 
 
 SAVED_MODEL_DIR =os.path.join("saved_models")
+
+"""
+Model Pusher ralated constant start with MODE TRAINER VAR NAME
+"""
+
+MODEL_PUSHER_DIR_NAME = "model_pusher"
+
+MODEL_PUSHER_SAVED_MODEL_DIR = SAVED_MODEL_DIR
